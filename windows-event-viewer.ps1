@@ -1,0 +1,1 @@
+﻿Get-WinEvent -FilterHashtable @{ProviderName='nssm';logname='Application'} -MaxEvents 10 | ft -wrap
