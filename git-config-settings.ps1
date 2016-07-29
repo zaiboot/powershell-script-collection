@@ -1,6 +1,6 @@
 git config user.name zaiboot
 git config user.email zaiboot@gmail.com
-
+git config --global push.default simple
 git config --global user.name zaiboot
 git config --global user.email zaiboot@gmail.com
 
