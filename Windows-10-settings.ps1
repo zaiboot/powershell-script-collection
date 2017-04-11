@@ -21,3 +21,11 @@ Get-AppxPackage *bingsports* | Remove-AppxPackage
 Get-AppxPackage *soundrecorder* | Remove-AppxPackage
 Get-AppxPackage *bingweather* | Remove-AppxPackage
 Get-AppxPackage *xbox* | Remove-AppxPackage
+Get-AppxPackage *twitter* | Remove-AppxPackage
+Get-AppxPackage  *candy*  | Remove-AppxPackage
+Get-AppxPackage  *Advertising*  | Remove-AppxPackage
+Get-AppxPackage  *minecraf*  | Remove-AppxPackage
+Get-AppxPackage  *fallout*  | Remove-AppxPackage
+Get-AppxPackage  *sling*  | Remove-AppxPackage
+Get-AppxPackage  *empires*  | Remove-AppxPackage
+Get-AppxPackage  *edge*  | Remove-AppxPackage
