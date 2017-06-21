@@ -1,6 +1,6 @@
 #Basic settings
 clear
-$VS_REGISTRY_PATH = "HKCU:\Software\Microsoft\VisualStudio\14.0\"
+$VS_REGISTRY_PATH = "HKCU:\Software\Microsoft\VisualStudio\14.0\" # TODO: Verify the version(s) of VS installed
 $PROJECTS_PATH =  '%USERPROFILE%\projects'
 Set-ItemProperty -path $VS_REGISTRY_PATH  -value $PROJECTS_PATH  -name 'DefaultOpenProjectLocation'
 Set-ItemProperty -path $VS_REGISTRY_PATH  -value $PROJECTS_PATH  -name 'DefaultOpenSolutionLocation'
