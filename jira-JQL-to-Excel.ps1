@@ -9,7 +9,7 @@ function ConvertTo-Base64($string) {
 	return $encoded;
 }
 $userName='edgar.madrigal'
-$password='1QSCft6@*/'
+$password=''
 $encodedCredentials = ConvertTo-Base64("${userName}:${password}")
 
 

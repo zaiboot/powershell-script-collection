@@ -10,5 +10,5 @@ Restart-Service
 
 # service management
 New-Service 
-(Get-WmiObject win32_service -Filter "name='TestService'").delete()  #delete a service
+(Get-WmiObject win32_service -Filter "name=' Intellicus Dev3_Cadency_250'").delete()  #delete a service
 Set-Service
